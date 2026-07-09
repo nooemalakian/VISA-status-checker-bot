@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Credenciales y configuración sensible (¡NUNCA SUBIR!)
+config.json
+credentials.json
+
+# Carpetas temporales y reportes locales generados por el bot
+app_status/
+temp_captcha/
+error_logs/
+
+# Archivos del sistema operativo o entornos virtuales
+__pycache__/
+*.pyc
+.venv/
+venv/
